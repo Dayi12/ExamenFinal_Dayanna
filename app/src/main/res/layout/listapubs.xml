@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:andriod="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    andriod:id="@+id/cv"
+    andriod:layout_width="match_parent"
+    andriod:layout_height="210dp"
+    andriod:animateLayoutChanges="true"
+    andriod:background="#e8e8e4"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true">
+
+
+    <RelativeLayout
+        andriod:id="@+id/pubs"
+        andriod:layout_width="match_parent"
+        andriod:layout_height="264dp"
+        andriod:background="#e2eafc"
+        andriod:orientation="horizontal"
+        andriod:padding="6dp">
+
+
+        <LinearLayout
+            andriod:id="@+id/linearLayout"
+            andriod:layout_width="match_parent"
+            andriod:layout_height="wrap_content"
+            andriod:layout_alignParentTop="true"
+            andriod:layout_marginLeft="4dp"
+            andriod:layout_marginTop="2dp"
+            andriod:orientation="vertical">
+
+            <TextView
+                andriod:id="@+id/txtSeccion"
+                andriod:layout_width="match_parent"
+                andriod:layout_height="wrap_content"
+                andriod:layout_marginBottom="2dp"
+                andriod:text="Nombre"
+                andriod:textColor="@android:color/black"
+                andriod:textSize="20sp"
+                andriod:textStyle="bold" />
+
+            <TextView
+                andriod:id="@+id/txtTitle"
+                andriod:layout_width="match_parent"
+                andriod:layout_height="wrap_content"
+                andriod:paddingTop="8sp"
+                andriod:text="Fecha"
+                andriod:textSize="18sp"
+                andriod:textStyle="normal" />
+
+            <TextView
+                andriod:id="@+id/txtDOI"
+                andriod:layout_width="match_parent"
+                andriod:layout_height="wrap_content"
+                andriod:paddingTop="8sp"
+                andriod:text="TextView"
+                andriod:textColor="#3a0ca3"
+                andriod:textSize="14sp"
+                andriod:textStyle="normal|bold" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
