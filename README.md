@@ -1,5 +1,5 @@
 # ExamenFinal_Dayanna
-# También se adjunta el link a un video de la grabación de la pantalla para demostrar que el link del doi está funcional y carga en el navegador https://drive.google.com/file/d/11h7UrDcI-JwvMQ4hfvNMaUJ9SuhbvnKF/view?usp=sharing
+También se adjunta el link a un video de la grabación de la pantalla para demostrar que el link del doi está funcional y carga en el navegador https://drive.google.com/file/d/11h7UrDcI-JwvMQ4hfvNMaUJ9SuhbvnKF/view?usp=sharing
 
 
 # Listado de journals de la UTEQ
